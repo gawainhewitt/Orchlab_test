@@ -379,9 +379,9 @@ function seqPressed(row, step) {
 }
 
 function setSpeed(tempo) {
-  for(let i = 0; i < seqPlayers.length; i++){
-    seqPlayers[i].playbackRate = tempo/originalTempo;
-  }
+  // for(let i = 0; i < seqPlayers.length; i++){
+  //   seqPlayers[i].playbackRate = tempo/originalTempo;
+  // }
 }
 
 let index = 0;
